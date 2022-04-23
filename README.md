@@ -27,3 +27,11 @@ There are two types of security that PDCP looks for :-
 1. Prevent Eavesdropping - TO counter this we use PDCP Ciphering.
 
 2. Data Origin - To verify data is originated from right source for this purpose it performs Integrity Protection.
+
+#### Routing and Duplicating of Split-Bearer
+
+Suppose multiple cell are connected to the User-Equipment then in this case we use split and duplicate the data so as to maintain the performance of services.
+
+#### In-Sequence Delivery
+In this , we provide the sequence number to each packets and also stores the PDU's in the buffer until all the previous PDU's is recieved.
+
